@@ -6,8 +6,10 @@ rgl_init()
 rgl.open() # Open a new RGL device
 
 #MyData <- read.csv(file="d:/data.csv", header=TRUE, sep=",")
-#mydata = read.csv("d:/data44.csv")
-mydata = read.csv("C:/Users/kamil/source/repos/CA/CA/snapshot.csv")
+#mydata = read.csv("C:/Users/kamil/source/repos/wydzielenia3d/wydzielenia3d/struktura-mikro.csv")
+mydata = read.csv("C:/Users/kamil/source/repos/wydzielenia3d/wydzielenia3d/struktura-nano-7.csv")
+
+#mydata = read.csv("C:/Users/kamil/source/repos/CA/CA/snapshot.csv")
 #r3dDefaults$windowRect <- c(0,50, 800, 800) 
 
 #plot3d(mydata$x1, mydata$y1, mydata$z1, col=rgb(1, 0, 0), size=1)
